@@ -1,0 +1,343 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.work-sans-font {
+  font-family: "Poppins", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+/* navbar section */
+.navbar {
+    margin: 20px 120px 20px 120px;
+    max-width: 1440px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.brand {
+    color: rgba(58, 58, 58, 1);
+    font-style: Bold;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 36px;
+    text-align: center;
+}
+
+.nav-item{
+    list-style: none;
+}
+
+.navbar ul{
+    text-decoration: none;
+    display: flex;
+    gap: 34px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links a{
+    color: #3A3A3A;
+    text-decoration: none;
+}
+
+/* banner section */
+.banner {
+    width: 1240px;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+ .banner-info {
+    max-width: 582px;
+ }
+
+ .banner-info h2{
+    color: rgba(58, 58, 58, 1);
+    font-style: Bold;
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 70px;
+    text-align: left;
+ }
+
+ .banner-info p {
+    color: #3A3A3A;
+    font-style: SemiBold;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+    margin: 16px 0px;
+ }
+
+ .banner-info button {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 8px;
+    padding: 10px 24px 10px 24px;
+    border: none;
+    border-radius: 30px;
+    color: white;
+    background: #E02C6D;
+ }
+
+ button:hover {
+    background: green;
+ }
+
+ .banner-img {
+    margin-top: 450px;
+    margin-right: 50px;
+ }
+.box-1 {
+    width: 440px;
+    height: 414px;
+}
+
+.box-2 {
+    width: 475px;
+    height: 475px;
+}
+
+.box-1, .box-2 {
+    position: relative;
+}
+.camera {
+    z-index: 1;
+}
+.bg-camera {
+    left: -30px;
+    top: -425px;
+}
+
+/* Sponsor section */
+
+.sponsor-container {
+    max-width: 1110px;
+    margin: 0 auto;
+    padding: 36px;
+    margin-top: 69px; 
+}
+
+.sponsors {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 61px;
+    padding: 25px;
+}
+
+.line {
+    width: 1040px;
+    height: 2px;
+    background: linear-gradient(135.29deg,
+    rgba(192, 204, 218, 0.1) 0%,
+    rgba(192, 204, 218, 0.6) 50.378%,
+    rgba(192, 204, 218, 0.1) 100%);  
+    opacity: 0.5;
+}
+
+/* card section */
+.product-container {
+    max-width: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 174px;
+}
+.product-card {
+    display: grid;
+    grid-template-columns: 329px 329px 329px;
+    gap: 30px;
+}
+.cards {
+    padding: 17px 15px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+    background: rgba(255, 255, 255, 1);
+}
+.exclusive {
+    margin-top: 70px;
+    color: rgba(58, 58, 58, 1);
+    font-family: Poppins;
+    font-style: SemiBold;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 70px;
+    margin-bottom: 30px;
+}
+.product-name {
+    margin-top: 16px;
+    margin-bottom: 6px;
+    font-family: Poppins;
+    font-style: Medium;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 40px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.price {
+    color: rgba(0, 0, 0, 0.87);
+    font-family: Inter;
+    font-style: Regular;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 150%;
+    text-align: left;
+}
+.stars {
+    margin-top: 16px;
+    width: 29px;
+    height: 22px;
+    display: flex;
+    align-items: center;
+}
+.stars p {
+    color: rgba(94, 99, 102, 1);
+    font-family: Roboto;
+    font-style: Bold;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 22px;
+    margin-left: 8px;
+}
+.stars i {
+    color: orange;     
+    font-size: 22px;
+}
+.product-info {
+    margin-top: 6px;
+    color: #787885;
+    font-family: Inter;
+    font-style: Bold;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 143%;
+    letter-spacing: 1.8%;
+    text-align: left;
+}
+
+/* Feature section */
+.feature-section {
+    max-width: 1140px;
+    display: flex;
+    gap: 96px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+
+.feature-info {
+    margin-top: 16px;
+}
+
+.feature-info h2{
+    color: rgba(10, 8, 38, 1);
+    font-family: Poppins;
+    font-style: Bold;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 60px;
+    text-align: left;
+    margin-bottom: 16px;
+}
+
+.feature-info p{
+    color: rgba(108, 108, 108, 1);
+    font-family: Poppins;
+    font-style: Bold;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: left;
+    margin-bottom: 16px;
+}
+
+.feature-info button {
+    color: rgba(255, 255, 255, 1);
+    background: rgba(224, 44, 109, 1);
+    border: none;
+    width: 135px;
+    height: 44px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 24px 10px 24px;
+}
+
+/* footer section */
+.footer-container {
+    max-width: 1510px;
+    height: 240px;
+    background: rgba(10, 8, 38, 1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.footer-info {
+    width: 262px;
+    height: 139px;
+}
+
+.footer-info h3 {
+    margin-top: 20px;
+    color: rgba(255, 255, 255, 1);
+    font-family: Poppins;
+    font-style: Bold;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+}
+
+.footer-info .para1, .footer-info .para2  {
+    color: #D9DBE1;
+    font-family: Manrope;
+    font-style: Bold;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 17px;
+}
+
+.para2 {
+    margin-top: -13px;
+}
+.social-media {
+    display: flex;
+    gap: 16px;
+    text-align: center;
+}
+.social-media i {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    background-color: rgb(41, 39, 39);
+    padding: 10px 7px 7px 7px;
+    color: white;     
+    font-size: 22px;
+    margin-bottom: 50px;
+}
+
+
+
+
+
+
