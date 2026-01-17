@@ -172,7 +172,6 @@
 .exclusive {
     margin-top: 70px;
     color: rgba(58, 58, 58, 1);
-    font-family: Poppins;
     font-style: SemiBold;
     font-size: 28px;
     font-weight: 600;
@@ -182,7 +181,6 @@
 .product-name {
     margin-top: 16px;
     margin-bottom: 6px;
-    font-family: Poppins;
     font-style: Medium;
     font-size: 28px;
     font-weight: 500;
@@ -246,7 +244,6 @@
 
 .feature-info h2{
     color: rgba(10, 8, 38, 1);
-    font-family: Poppins;
     font-style: Bold;
     font-size: 38px;
     font-weight: 700;
@@ -257,7 +254,6 @@
 
 .feature-info p{
     color: rgba(108, 108, 108, 1);
-    font-family: Poppins;
     font-style: Bold;
     font-size: 16px;
     font-weight: 700;
@@ -300,7 +296,6 @@
 .footer-info h3 {
     margin-top: 20px;
     color: rgba(255, 255, 255, 1);
-    font-family: Poppins;
     font-style: Bold;
     font-size: 24px;
     font-weight: 700;
@@ -336,8 +331,13 @@
     margin-bottom: 50px;
 }
 
-
-
-
-
-
+@media screen and (max-width: 576px){
+    .navbar{
+        flex-direction: column;
+        gap: 20px;
+        flex-wrap: wrap;
+        margin: 0 auto;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+}
