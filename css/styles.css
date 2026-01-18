@@ -24,7 +24,7 @@
 .brand {
     color: rgba(58, 58, 58, 1);
     font-style: Bold;
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     font-weight: 700;
     line-height: 36px;
     text-align: center;
@@ -342,10 +342,10 @@
         flex-wrap: wrap;
         margin: 0 auto;
         margin-left: 20px;
-        margin-top: 20px;
+        margin-top: 10px;
     }
     .banner {
-        max-width: 550px;
+        max-width: 476px;
         flex-direction: column-reverse;
         justify-content: center;
     }
@@ -354,15 +354,24 @@
         width: 257px;
         height: 257px;
         margin-top: 400px;
-        margin-left: -110px;
+        margin-left: -100px;
         
     }
     .banner-info {
+        max-width: 480px;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         margin-top: 250px;
+    }
+    .banner-info h2, .banner-info p {
+        text-align: center;
+        width: 480px;
+        padding-left: 20px;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
     }
     .line{
         display: none;
@@ -374,7 +383,6 @@
     }
     .product-container {
         margin: 0 auto;
-        /* margin-top: -50px; */
         margin-bottom: 100px;
     }
     .product-card {
@@ -387,14 +395,19 @@
         gap: 50px;
     }
     .feature-info {
-        width: 550px;
+        margin: 0 auto;
+        width: 476px;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
+    .feature-info h2, .feature-info p {
+        text-align: center;
+        margin-left: 20px;
+    }
     .footer-container {
-        width: 576px;
+        width: 480px;
     }
 
 }
